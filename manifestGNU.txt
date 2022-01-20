@@ -1,0 +1,108 @@
+1	% \iffalse meta-comment
+2	%
+3	% 2000/07/04
+4	%
+5	% Copyright 1999 Sebastian Rahtz, Heiko Oberdiek
+6	% 
+7	% This file is part of the `Hyperref Bundle'.
+8	% -------------------------------------------
+9	% 
+10	% It may be distributed and/or modified under the
+11	% conditions of the LaTeX Project Public License, either version 1.2
+12	% of this license or (at your option) any later version.
+13	% The latest version of this license is in
+14	%    http://www.latex-project.org/lppl.txt
+15	% and version 1.2 or later is part of all distributions of LaTeX 
+16	% version 1999/12/01 or later.
+17	% 
+18	% The list of all files belonging to the LaTeX `Hyperref Bundle' is
+19	% given in the file `manifest.txt'.
+20	% 
+21	% \fi
+22	%
+23	% CONTENTS OF THE HYPERREF BUNDLE
+24	% ===============================
+25	
+26	hyperref.dtx
+27	        Main package with various drivers.
+28	backref.dtx
+29	        Bibliographical back referencing.
+30	nameref.dtx
+31	        Cross-referencing by name of section.
+32	
+33	hyperref.ins
+34	        Docstrip batch file.
+35	
+36	minitoc-hyper.sty
+37	        Patched version of `minitoc.sty' to work with `hyperref.sty'.
+38	ntheorem-hyper.sty
+39	        Patched version of `ntheorem.sty' to work with `hyperref.sty'.
+40	xr-hyper.sty
+41	        Patched version of `xr.sty' to work with `hyperref.sty'.
+42	
+43	ANNOUNCE
+44	        Announcement file for version 6.57 of package `hyperref'.
+45	ChangeLog
+46	        Versions history
+47	hylatex.ltx
+48	        For creating format file.
+49	makefile
+50	        Makefile for installing and other things.
+51	manifest.txt
+52	        Short description of the files.
+53	readme.txt
+54	        Short readme file.
+55	
+56	% Directory doc/
+57	% =============
+58	
+59	manual.pdf
+60	        Manual, but a little out of date.
+61	options.tex
+62	        Short description of options from package `hyperref'.
+63	paper.pdf
+64	        Online version of paper for Heiko Oberdiek's talk
+65	        at EuroTeX'99.
+66	slides.pdf
+67	        Slides for Heiko Oberdiek's talk at EuroTeX'99.        
+68	
+69	% Directory test/
+70	% ==============
+71	
+72	test0.tex, test0.dvi, hog.eps, hog.pdf
+73	test1.tex
+74	test2.tex
+75	test3.tex, phys1.jpg, phys2.jpg
+76	test4.tex, bit.tex
+77	test5.tex
+78	test6.tex
+79	test7.tex, test7.pdf
+80	test8.tex
+81	testams.tex
+82	testbib.tex, testbib.bib, testbib.bbl
+83	testbookmark.tex
+84	testfor2.tex
+85	testform.tex
+86	testnb.tex
+87	testoz.tex
+88	testslide.tex, seminar.con
+89	testurl.tex, testurl.bib, testurl.bbl
+90	picture.eps, picture.pdf, picture.png
+91	        Used in `test0.tex' and `test1.tex'.
+92	
+93	testbmgl.tex
+94	        Test file that produces all glyphs of PDFDocEncoding
+95	        in the bookmarks and shows the commands to produce them.
+96	testbmu.tex
+97	        Test file that produces glyphs 0x0000 until 0x04FF
+98	        of Unicode in the bookmarks and the commands.
+99	        (Caution: large pool size needed.)
+100	
+101	testbma.tex
+102	        Test files that shows some AcrobatReaders's problems
+103	        with some Unicode glyphs in bookmarks, screenshots:
+104	        bml.png:  Lslash/lslash
+105	        bmoe.png: OE/oe
+106	        bmsc.png: Scaron/scaron
+107	        bmyi.png: Ydieresis/dotlessi
+108	        bmzc.png: Zcaron/zcaron
